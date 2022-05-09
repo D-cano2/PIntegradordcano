@@ -10,7 +10,7 @@ import { RsocialComponent } from '../components/rsocial/rsocial.component';
 import { EducacionComponent } from '../components/educacion/educacion.component';
 import { ExperienciaComponent } from '../components/experiencia/experiencia.component';
 import { HyskillsComponent } from '../components/hyskills/hyskills.component';
-
+import { ProyectoComponent } from '../components/proyecto/proyecto.component';
 
 /*definimos nuestras rutas*/
 const routes: Routes = [
@@ -21,7 +21,8 @@ const routes: Routes = [
   {path: 'isocial' , component:RsocialComponent},
   {path: 'educacion' , component:EducacionComponent},
   {path: 'experiencia' , component:ExperienciaComponent},
-  {path: 'skills' , component:HyskillsComponent}
+  {path: 'skills' , component:HyskillsComponent},
+  {path: 'proyecto' , component:ProyectoComponent}
 ];
 
 
