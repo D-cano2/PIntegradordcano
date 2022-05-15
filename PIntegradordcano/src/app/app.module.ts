@@ -5,7 +5,6 @@ import { AppRoutingModule } from './app-routing.module.ts/app-routing.module.ts.
 import { AppComponent } from './app.component';
 import { HeaderComponent } from './components/header/header.component';
 import { LogoAPComponent } from './components/logo-ap/logo-ap.component';
-import { RsocialComponent } from './components/rsocial/rsocial.component';
 import { BannerComponent } from './components/banner/banner.component';
 import { AcercaDeComponent } from './components/acerca-de/acerca-de.component';
 import { ExperienciaComponent } from './components/experiencia/experiencia.component';
@@ -20,7 +19,7 @@ import { FooterComponent } from './components/footer/footer.component';
     AppComponent,
     HeaderComponent,
     LogoAPComponent,
-    RsocialComponent,
+  
     BannerComponent,
     AcercaDeComponent,
     ExperienciaComponent,

@@ -12,3 +12,16 @@
 img{
     width: 50px;
 }
+/*.... para la vista de celular...*/
+@media (max-width: 575px)
+.container{
+    flex-direction: column;
+}
+.redes{
+    display: flex;
+    
+    align-items: center;
+}
+.redes img{
+    margin: 0.2em;
+}
