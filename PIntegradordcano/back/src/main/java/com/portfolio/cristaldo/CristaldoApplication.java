@@ -1,13 +1,13 @@
-package com.portfolio.cano;
+package com.portfolio.cristaldo;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class CanoApplication {
+public class CristaldoApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(CanoApplication.class, args);
+		SpringApplication.run(CristaldoApplication.class, args);
 	}
 
 }

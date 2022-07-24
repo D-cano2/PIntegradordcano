@@ -1,10 +1,10 @@
-package com.portfolio.cano;
+package com.portfolio.cristaldo;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class CanoApplicationTests {
+class CristaldoApplicationTests {
 
 	@Test
 	void contextLoads() {
