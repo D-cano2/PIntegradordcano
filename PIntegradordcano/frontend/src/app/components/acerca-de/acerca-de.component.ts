@@ -13,7 +13,7 @@ persona: persona = new persona("","","");
   constructor(public personaService: PersonaService) { }
 
   ngOnInit(): void {
-    this.personaService.getPersona().subscribe(data =>{this.persona = data})
+    this.personaService.getPersona().subscribe(data => {this.persona = data})
   }
 
 }
