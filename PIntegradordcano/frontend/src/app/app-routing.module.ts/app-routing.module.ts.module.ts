@@ -11,9 +11,13 @@ import { EducacionComponent } from '../components/educacion/educacion.component'
 import { ExperienciaComponent } from '../components/experiencia/experiencia.component';
 import { HyskillsComponent } from '../components/hyskills/hyskills.component';
 import { ProyectoComponent } from '../components/proyecto/proyecto.component';
+import { HomeComponent } from '../components/home/home.component';
+import { LoginComponent } from '../components/login/login.component';
 
 /*definimos nuestras rutas*/
 const routes: Routes = [
+  {path: 'login' , component:LoginComponent},
+  {path: '' , component: HomeComponent},
   {path: 'acercaDe' , component:AcercaDeComponent},
   {path: 'banner' , component:BannerComponent},
   {path: 'header' , component:HeaderComponent},
