@@ -20,9 +20,10 @@ public class Usuario {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
      private int id;
     @NotNull
-    @Column(unique = true)
+   
      private String nombre;
     @NotNull
+     @Column(unique = true)
      private String nombreUsuario;
     @NotNull
      private String email;

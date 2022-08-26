@@ -1,7 +1,4 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
+
 package com.portfolio.cristaldo.Security.jwt;
 
 import com.portfolio.cristaldo.Security.Entity.UsuarioPrincipal;
@@ -22,10 +19,10 @@ import org.springframework.stereotype.Component;
 @Component
 public class JwtProvider {
 
-    private final static Logger logger = (Logger) LoggerFactory.getLogger(JwtProvider.class);
-    @Value("$(jwt.secret)")
+    private final static Logger logger = LoggerFactory.getLogger(JwtProvider.class);
+    @Value("${jwt.secret}")
     private String secret;
-    @Value("$(jwt.expiration)")
+    @Value("${jwt.expiration}")
     private int expiration;
 
     public String generateToken(Authentication authentication) {
