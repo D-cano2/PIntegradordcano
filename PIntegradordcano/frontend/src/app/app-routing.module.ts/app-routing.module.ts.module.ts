@@ -14,6 +14,10 @@ import { ProyectoComponent } from '../components/proyecto/proyecto.component';
 import { HomeComponent } from '../components/home/home.component';
 import { LoginComponent } from '../components/login/login.component';
 import { FormsModule } from '@angular/forms';
+import { ReactiveFormsModule } from '@angular/forms';
+import { NgForm } from '@angular/forms';
+
+
 
 /*definimos nuestras rutas*/
 const routes: Routes = [
@@ -35,10 +39,13 @@ const routes: Routes = [
   /* cargamos nuestras rutas*/
   declarations: [],
   imports:[RouterModule.forRoot(routes),
-          FormsModule],
+          FormsModule,
+        ReactiveFormsModule,
+      ],
   
   
-   exports: [RouterModule
+   exports: [RouterModule,
+    FormsModule,
   ]
 })
 export class AppRoutingModule { }
