@@ -16,6 +16,7 @@ import { LoginComponent } from '../components/login/login.component';
 import { FormsModule } from '@angular/forms';
 import { ReactiveFormsModule } from '@angular/forms';
 import { NgForm } from '@angular/forms';
+import { NewExperienciaComponent } from '../components/experiencia/new-experiencia.component';
 
 
 
@@ -31,7 +32,8 @@ const routes: Routes = [
   {path: 'educacion' , component:EducacionComponent},
   {path: 'experiencia' , component:ExperienciaComponent},
   {path: 'skills' , component:HyskillsComponent},
-  {path: 'proyecto' , component:ProyectoComponent}
+  {path: 'proyecto' , component:ProyectoComponent},
+  {path: 'nuevaexp', component:NewExperienciaComponent}
 ];
 
 
