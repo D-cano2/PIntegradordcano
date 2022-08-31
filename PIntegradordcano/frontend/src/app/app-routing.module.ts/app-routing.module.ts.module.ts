@@ -33,7 +33,9 @@ const routes: Routes = [
   {path: 'experiencia' , component:ExperienciaComponent},
   {path: 'skills' , component:HyskillsComponent},
   {path: 'proyecto' , component:ProyectoComponent},
-  {path: 'nuevaexp', component:NewExperienciaComponent}
+  {path: 'nuevaexp', component:NewExperienciaComponent},
+  {path: 'editexp/:id', component:ExperienciaComponent}
+
 ];
 
 
