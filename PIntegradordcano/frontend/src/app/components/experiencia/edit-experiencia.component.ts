@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { ActivatedRoute, Router } from '@angular/router';
+import { ActivatedRoute, Router } from '@angular/router'; 
 import { Experiencia } from 'src/app/model/experiencia';
 import { SExperienciaService } from 'src/app/model/s-experiencia.service';
 
@@ -23,8 +23,7 @@ export class EditExperienciaComponent implements OnInit {
         alert("Error al modificar experiencia");
         this.router.navigate(['']);
       }
-    )
-  }
+    )  }
   
   onUpdate(): void {
     const id = this.activatedRouter.snapshot.params['id'];
