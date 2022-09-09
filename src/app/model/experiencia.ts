@@ -1,6 +1,6 @@
 export class Experiencia {
     id? : number;
-    nombreEx : String;
+    nombreEx : string;
     descripcionEx : string;
 
     constructor(nombreEx: string, descripcionEx: string){
