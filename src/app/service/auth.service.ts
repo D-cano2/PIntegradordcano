@@ -9,7 +9,7 @@ import { NuevoUsuario } from '../model/nuevo-usuario';
   providedIn: 'root'
 })
 export class AuthService {
-  authURL = 'https://bendportfolio.herokuapp.com/auth/';
+  authURL = 'https://back-heroku-2022.herokuapp.com/auth/';
 
   constructor(private httpClient: HttpClient) { }
 

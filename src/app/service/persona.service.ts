@@ -7,7 +7,7 @@ import { persona } from '../model/persona.model';
   providedIn: 'root'
 })
 export class PersonaService {
-URL = 'https://bendportfolio.herokuapp.com/personas/';
+URL = 'https://back-heroku-2022.herokuapp.com/personas/';
   
 
 constructor(private http: HttpClient) { }
