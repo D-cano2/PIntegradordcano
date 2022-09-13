@@ -7,13 +7,13 @@ import { persona } from '../model/persona.model';
   providedIn: 'root'
 })
 export class PersonaService {
-URL = 'https://back-heroku-2022.herokuapp.com/personas/';
+baseURL = 'https://back-heroku-2022.herokuapp.com/personas/';
   
 
 constructor(private http: HttpClient) { }
 
 public getPersona(): Observable<persona>{
-  return this.http.get<persona>(this.URL+ 'traer/perfil');
+  return this.http.get<persona>(this.baseURL+ 'traer/perfil');
   
 }
 }
