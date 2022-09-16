@@ -8,9 +8,7 @@ import { Skill } from '../model/skill';
   providedIn: 'root'
 })
 export class SkillService {
-  detail(id: any) {
-    throw new Error('Method not implemented.');
-  }
+ 
   baseURL = environment.baseURL + 'skill/';
 
   constructor(private httpClient: HttpClient) { }
