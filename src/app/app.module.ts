@@ -16,6 +16,10 @@ import { HomeComponent } from './components/home/home.component';
 
 import { interceptorProvider } from './service/interceptor-service';
 import { FormsModule } from '@angular/forms';
+import {ExperienciaComponent } from './components/experiencia/experiencia.component';
+import { EducacionComponent } from './components/educacion/educacion.component';
+import { HysComponent } from './components/hys/hys.component';
+import { ProyectoComponent } from './components/proyecto/proyecto.component';
 
 
 
@@ -31,6 +35,10 @@ import { FormsModule } from '@angular/forms';
   
     FooterComponent,
     HomeComponent,
+    ExperienciaComponent,
+    EducacionComponent,
+    HysComponent,
+    ProyectoComponent,
   
   ],
   imports: [
