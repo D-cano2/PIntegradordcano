@@ -1,5 +1,5 @@
 export const environment = {
   production: true,
-  baseURL: 'https://back-heroku-2022.herokuapp.com/',
-  //baseURL: 'HTTP://localhost:8080/'
+  baseURL: 'https://back-heroku-2022.herokuapp.com',
+ 
 };
