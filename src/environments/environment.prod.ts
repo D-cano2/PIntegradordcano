@@ -9,6 +9,6 @@ export const environment = {
     messagingSenderId: '77696584383',
   },
   production: true,
-  baseURL: 'https://back-d-cano2.koyeb.app/'
+  baseURL: 'https://back-ap.onrender.com/'
  
 };
